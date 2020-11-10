@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>排版1</title>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        .container {
+            width: 1200px;
+            height: 100%;
+            margin: auto;
+        }
+        
+        .banner {
+            width: 100%;
+            height: 100vh;
+            background-color: #ccc;
+            background: url(background.jpg)center center / auto 100%;
+            background-repeat: no-repeat;
+        }
+        
+        .banner-txt {
+            border: 1px solid crimson;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            position: absolute;
+            left: 20%;
+        }
+        
+        .banner-txt h1 {
+            font-family: 'Goldman', cursive;
+            font-size: 60px;
+            border-bottom: 1px solid #333;
+            font-weight: 400;
+            padding-bottom: .3em;
+            margin-bottom: .3em;
+        }
+        
+        .banner-txt h1 small {
+            display: block;
+            font-size: 40px;
+            font-weight: 700;
+        }
+        
+        .banner-txt h2 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        
+        .banner-txt p {
+            font-size: 12px;
+            font-weight: 300;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="banner">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="#">Home｜首頁</a>
+                <a href="#">Blog｜日常紀錄</a>
+                <a href="#">Projects｜參與專案</a>
+            </nav>
+            <div class="banner-txt">
+                <h1>Jocelyn‘s
+                    <small>
+                        人生開發日誌
+                    </small>
+                </h1>
+                <h2>圖文滿版區塊</h2>
+                <p>這個畫面實在常見，在各種樣板網站可說是設計常客<br>金魚切不出來實在說不過去啊</p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
